@@ -50,7 +50,7 @@ export function ProjectCard({
         href={href || "#"}
         className={cn("block cursor-pointer", className)}
       >
-        {video && video!="" ?
+        {video && video != "" ? (
           <video
             src={video}
             autoPlay
@@ -59,14 +59,14 @@ export function ProjectCard({
             playsInline
             className="pointer-events-none mx-auto h-40 w-full object-cover object-top" // needed because random black line at bottom of video
           />
-        
-        : 
-          <img
-            src={image}
-            alt={title}
-            className="h-40 w-full overflow-hidden object-cover object-top"
-          />
-        }
+        ) : (
+          <Image 
+          src={image} 
+          alt="Hogwarts" 
+          width={800}  // Replace with the actual width of your image
+          height={600} // Replace with the actual height of your image
+        />
+        )}
       </Link>
       <CardHeader className="px-2">
         <div className="space-y-1">
