@@ -61,7 +61,7 @@ export function ProjectCard({
           />
         ) : (
           <Image 
-          src={image} 
+          src={image || ""} 
           alt="Hogwarts" 
           width={800}  // Replace with the actual width of your image
           height={600} // Replace with the actual height of your image
