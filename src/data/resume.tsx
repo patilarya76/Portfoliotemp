@@ -9,7 +9,7 @@ export const DATA = {
   location: "Salem, Tamilnadu, India",
   locationLink: "",
   description:
-    "Software Engineer turned Entrepreneur. I love building things and helping people. Very active on LinkedIn.",
+    "Software Engineer turned Entrepreneur. I love building things and helping people.",
   summary:
     "As I embark on my entrepreneurial journey, I’m pursuing a [computer science program at Kalvium](/#education) and a BCA degree at [Mysore University](/#education), focusing on developing an innovative SaaS web builder. I’ve guided students through over [2+ talks](https://www.canva.com/design/DAFuN22b6aU/F136wyQZcfw2SNnEYTDWkQ/edit?utm_content=DAFuN22b6aU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) on choosing the right college and gained valuable experience from participating in more than [4+ hackathons](/#hackathons). I’m passionate about helping others learn and sharing insights to support their growth.",
   avatarUrl: "/me.jpg",
@@ -308,7 +308,7 @@ export const DATA = {
     {
       title: "Cryptera",
       dates: "Jan 1 - 2nd, 2024",
-      location: "CIT, Coimbator",
+      location: "CIT, Coimbatore",
       description:
         "In this coding hackathon, we worked on challenging problems from HackerRank, gaining valuable experience and identifying areas for improvement. The event featured engaging coding competitions and provided a rewarding learning experience, combining both fun and technical growth.",
       image:
