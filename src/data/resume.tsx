@@ -175,37 +175,37 @@ export const DATA = {
       video:"",
     },
     {
-      title: "Funky Fumbles",
-      href: "https://funkyfumbles.netlify.app",
-      dates: "Jan 2024 - July 2024",
+      title: "Review-Club",
+      href: "https://review-club-website.onrender.com/",
+      dates: "July 2024 - July 2024",
       active: true,
       description:
-        "I developed Funkyfumbles, a social media platform where you can upload and share awkward dance moves, and have fun viewing posts from others.",
+        "My friends and I developed Review Club, a platform to find, share, and discuss reviews, focusing on identifying and combating scams, and providing a hub for discussions and fraud reporting.",
       technologies: [
         "React.js",
-        "Javacript",
+        "Javascript",
         "MongoDB",
-        "Mongoose",
-        "Node.js",
-        "Express.js",
+        "Prisma",
         "TailwindCSS",
-        "JWT",
-        "REST",
+        "Node.js",
+        "Google OAuth",
+        "Firebase",
       ],
       links: [
         {
           type: "Website",
-          href: "https://funkyfumbles.netlify.app/",
+          href: "https://review-club-website.onrender.com/",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/mugilankani/S52_Awkward_Dance_Moves",
+          href: "https://github.com/mugilankani/Review-Club",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/Awkward.jpeg",
-      video: "",
+      image: "/ReviewClub.jpeg",
+      video:
+        "",
     },
     {
       title: "Q-Space",
@@ -242,38 +242,40 @@ export const DATA = {
       video: "",
     },
     {
-      title: "Review-Club",
-      href: "https://review-club-website.onrender.com/",
-      dates: "July 2024 - July 2024",
+      title: "Funky Fumbles",
+      href: "https://funkyfumbles.netlify.app",
+      dates: "Jan 2024 - July 2024",
       active: true,
       description:
-        "My friends and I developed Review Club, a platform to find, share, and discuss reviews, focusing on identifying and combating scams, and providing a hub for discussions and fraud reporting.",
+        "I developed Funkyfumbles, a social media platform where you can upload and share awkward dance moves, and have fun viewing posts from others.",
       technologies: [
         "React.js",
-        "Javascript",
+        "Javacript",
         "MongoDB",
-        "Prisma",
-        "TailwindCSS",
+        "Mongoose",
         "Node.js",
-        "Google OAuth",
-        "Firebase",
+        "Express.js",
+        "TailwindCSS",
+        "JWT",
+        "REST",
       ],
       links: [
         {
           type: "Website",
-          href: "https://review-club-website.onrender.com/",
+          href: "https://funkyfumbles.netlify.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/mugilankani/Review-Club",
+          href: "https://github.com/mugilankani/S52_Awkward_Dance_Moves",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/ReviewClub.jpeg",
-      video:
-        "",
+      image: "/Awkward.jpeg",
+      video: "",
     },
+    
+    
     {
       title: "Strix",
       href: "https://review-club-website.onrender.com/",
@@ -306,47 +308,29 @@ export const DATA = {
   ],
   hackathons: [
     {
-      title: "Cryptera",
-      dates: "Jan 1 - 2nd, 2024",
-      location: "CIT, Coimbatore",
-      description:
-        "In this coding hackathon, we worked on challenging problems from HackerRank, gaining valuable experience and identifying areas for improvement. The event featured engaging coding competitions and provided a rewarding learning experience, combining both fun and technical growth.",
-      image:
-        "/CIT.png",
-      links: [
-        {
-          title: "Organization",
-          icon: <Icons.globe className="size-3" />,
-          href: "https://www.instagram.com/cryptera_2k24/",
-        },
-
-      ],
-    },
-    {
-      title: "Vue.js",
-      dates: "May 3rd, 2024",
+      title: "Prisma",
+      dates: "July 20, 2024",
       location: "Online Hackathon",
       description:
-        "My friend and I built a comprehensive chat interface for Ollama, integrating support for all models. This interface enhances user interactions and ensures seamless communication across various platforms and applications.",
+        "My friends and I developed Review Club, a platform to find, share, and discuss reviews, focusing on identifying and combating scams, and providing a hub for discussions and fraud reporting.",
       image:
         "/TinkerSpace.jpeg",
       links: [
         {
-          title: "Github",
-          icon: <Icons.github className="size-3" />,
-          href: "https://github.com/Anam-Ashraf7/Strix",
+          title: "Website",
+          href: "https://review-club-website.onrender.com/",
+          icon: <Icons.globe className="size-3" />,
         },
         {
-          title: "Best Project",
-          icon: <Icons.globe className="size-3" />,
-          href: "https://drive.google.com/file/d/1bA08eHI4kn6e6ZEbhOf1e_YtdCoboyxu/view?usp=sharing",
-        }, 
+          title: "Source",
+          href: "https://github.com/mugilankani/Q-Space",
+          icon: <Icons.github className="size-3" />,
+        },
         {
           title: "Organization",
           icon: <Icons.linkedin className="size-3" />,
           href: "https://www.linkedin.com/company/tinkerhub/?originalSubdomain=in",
         },
-
       ],
     },
     {
@@ -382,30 +366,50 @@ export const DATA = {
         }, 
       ],
     },
+    
     {
-      title: "Prisma",
-      dates: "July 20, 2024",
+      title: "Vue.js",
+      dates: "May 3rd, 2024",
       location: "Online Hackathon",
       description:
-        "My friends and I developed Review Club, a platform to find, share, and discuss reviews, focusing on identifying and combating scams, and providing a hub for discussions and fraud reporting.",
+        "My friend and I built a comprehensive chat interface for Ollama, integrating support for all models. This interface enhances user interactions and ensures seamless communication across various platforms and applications.",
       image:
         "/TinkerSpace.jpeg",
       links: [
         {
-          title: "Website",
-          href: "https://review-club-website.onrender.com/",
-          icon: <Icons.globe className="size-3" />,
+          title: "Github",
+          icon: <Icons.github className="size-3" />,
+          href: "https://github.com/Anam-Ashraf7/Strix",
         },
         {
-          title: "Source",
-          href: "https://github.com/mugilankani/Q-Space",
-          icon: <Icons.github className="size-3" />,
-        },
+          title: "Best Project",
+          icon: <Icons.globe className="size-3" />,
+          href: "https://drive.google.com/file/d/1bA08eHI4kn6e6ZEbhOf1e_YtdCoboyxu/view?usp=sharing",
+        }, 
         {
           title: "Organization",
           icon: <Icons.linkedin className="size-3" />,
           href: "https://www.linkedin.com/company/tinkerhub/?originalSubdomain=in",
         },
+
+      ],
+    },
+    
+    {
+      title: "Cryptera",
+      dates: "Jan 1 - 2nd, 2024",
+      location: "CIT, Coimbatore",
+      description:
+        "In this coding hackathon, we worked on challenging problems from HackerRank, gaining valuable experience and identifying areas for improvement. The event featured engaging coding competitions and provided a rewarding learning experience, combining both fun and technical growth.",
+      image:
+        "/CIT.png",
+      links: [
+        {
+          title: "Organization",
+          icon: <Icons.globe className="size-3" />,
+          href: "https://www.instagram.com/cryptera_2k24/",
+        },
+
       ],
     },
    
