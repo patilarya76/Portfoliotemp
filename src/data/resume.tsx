@@ -132,6 +132,7 @@ export const DATA = {
     },
     {
       school: "Government Boys Higher Secondary School",
+      href: "/#education",
       degree: "Higher Secondary Education",
       logoUrl: "/govermentlogo.png",
       start: "2021",
