@@ -14,16 +14,23 @@ export const DATA = {
     "As I embark on my entrepreneurial journey, I’m pursuing a [computer science program at Kalvium](/#education) and a BCA degree at [Mysore University](/#education), focusing on developing an innovative SaaS web builder. I’ve guided students through over [2+ talks](https://www.canva.com/design/DAFuN22b6aU/F136wyQZcfw2SNnEYTDWkQ/edit?utm_content=DAFuN22b6aU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) on choosing the right college and gained valuable experience from participating in more than [4+ hackathons](/#hackathons). I’m passionate about helping others learn and sharing insights to support their growth.",
   avatarUrl: "/me.jpg",
   skills: [
-    "React.js",
-    "Vite",
+    "Next.js",
     "Javascript",
+    "TailwindCSS",
+    "React.js",
     "Node.js",
     "Express.js",
     "MongoDB",
     "Mongoose",
-    "Langchain",
+    "Clerk",
+    "Cloudinary",
     "Redis",
+    "Nodemailer",
     "Prisma",
+    "Transformers.js",
+    "LangChain",
+    "JWT",
+    "REST",
     "Python",
     "C++",
   ],
@@ -106,7 +113,7 @@ export const DATA = {
       badges: [],
       location: "Tamilnadu",
       title: "Educational Guidance Workshops",
-      logoUrl: "",
+      logoUrl: "workshop.png",
       start: "July 2023",
       end: "Ongoing",
       description:
@@ -141,6 +148,29 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Rosenau",
+      href: "https://rosenau.mugilans.in/",
+      dates: "Aug 2024 - Ongoing",
+      active: true,
+      description:
+        "Rosenau was created to simplify frontend development and web design by bringing together all the essential tools in one place. I developed this platform to help you avoid the frustration of searching for reliable resources, so you can focus on building great projects.",
+      technologies: ["Next.js", "Javascript", "TailwindCSS"],
+      links: [
+        {
+          type: "Website",
+          href: "https://rosenau.mugilans.in/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/mugilankani/rosenau",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/Rosenau.jpeg",
+      video: "",
+    },
+    {
       title: "Hogwarts LMS",
       href: "https://hogwarts.mugilans.in/",
       dates: "Mar 2024 - Ongoing",
@@ -172,7 +202,7 @@ export const DATA = {
         },
       ],
       image: "/Hogwarts.jpeg",
-      video:"",
+      video: "",
     },
     {
       title: "Review-Club",
@@ -204,8 +234,7 @@ export const DATA = {
         },
       ],
       image: "/ReviewClub.jpeg",
-      video:
-        "",
+      video: "",
     },
     {
       title: "Q-Space",
@@ -274,8 +303,7 @@ export const DATA = {
       image: "/Awkward.jpeg",
       video: "",
     },
-    
-    
+
     {
       title: "Strix",
       href: "https://review-club-website.onrender.com/",
@@ -283,12 +311,7 @@ export const DATA = {
       active: true,
       description:
         "My friend and I built a comprehensive chat interface for Ollama, integrating support for all models. This interface enhances user interactions and ensures seamless communication across various platforms and applications.",
-      technologies: [
-        "Vue.js",
-        "Javascript",
-        "Ollama JS",
-        "TailwindCSS",
-      ],
+      technologies: ["Vue.js", "Javascript", "Ollama JS", "TailwindCSS"],
       links: [
         // {
         //   type: "Website",
@@ -302,8 +325,7 @@ export const DATA = {
         },
       ],
       image: "/OllamaChat.jpeg",
-      video:
-        "",
+      video: "",
     },
   ],
   hackathons: [
@@ -313,8 +335,7 @@ export const DATA = {
       location: "Online Hackathon",
       description:
         "My friends and I developed Review Club, a platform to find, share, and discuss reviews, focusing on identifying and combating scams, and providing a hub for discussions and fraud reporting.",
-      image:
-        "/TinkerSpace.jpeg",
+      image: "/TinkerSpace.jpeg",
       links: [
         {
           title: "Website",
@@ -325,6 +346,11 @@ export const DATA = {
           title: "Source",
           href: "https://github.com/mugilankani/Q-Space",
           icon: <Icons.github className="size-3" />,
+        },
+        {
+          title: "Best Project",
+          icon: <Icons.linkedin className="size-3" />,
+          href: "https://www.linkedin.com/feed/update/urn:li:activity:7236343410662498304/",
         },
         {
           title: "Organization",
@@ -339,8 +365,7 @@ export const DATA = {
       location: "Kochi, Kerala",
       description:
         "I developed Q-space, a product for exam-preparing students to upload their materials. The AI generates questions based on difficulty, provides suggestions and reviews for incorrect answers, and includes a chatbot for students to ask their doubts.",
-      image:
-        "/TinkerSpace.jpeg",
+      image: "/TinkerSpace.jpeg",
       win: "Best Data Hack",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2018/white.svg",
       links: [
@@ -358,23 +383,22 @@ export const DATA = {
           title: "Best Project",
           icon: <Icons.linkedin className="size-3" />,
           href: "https://www.linkedin.com/feed/update/urn:li:activity:7215753143605764096/",
-        }, 
+        },
         {
           title: "Organization",
           icon: <Icons.linkedin className="size-3" />,
           href: "https://www.linkedin.com/company/tinkerhub/?originalSubdomain=in",
-        }, 
+        },
       ],
     },
-    
+
     {
       title: "Vue.js",
       dates: "May 3rd, 2024",
       location: "Online Hackathon",
       description:
         "My friend and I built a comprehensive chat interface for Ollama, integrating support for all models. This interface enhances user interactions and ensures seamless communication across various platforms and applications.",
-      image:
-        "/TinkerSpace.jpeg",
+      image: "/TinkerSpace.jpeg",
       links: [
         {
           title: "Github",
@@ -385,33 +409,29 @@ export const DATA = {
           title: "Best Project",
           icon: <Icons.globe className="size-3" />,
           href: "https://drive.google.com/file/d/1bA08eHI4kn6e6ZEbhOf1e_YtdCoboyxu/view?usp=sharing",
-        }, 
+        },
         {
           title: "Organization",
           icon: <Icons.linkedin className="size-3" />,
           href: "https://www.linkedin.com/company/tinkerhub/?originalSubdomain=in",
         },
-
       ],
     },
-    
+
     {
       title: "Cryptera",
       dates: "Jan 1 - 2nd, 2024",
       location: "CIT, Coimbatore",
       description:
         "In this coding hackathon, we worked on challenging problems from HackerRank, gaining valuable experience and identifying areas for improvement. The event featured engaging coding competitions and provided a rewarding learning experience, combining both fun and technical growth.",
-      image:
-        "/CIT.png",
+      image: "/CIT.png",
       links: [
         {
           title: "Organization",
           icon: <Icons.globe className="size-3" />,
           href: "https://www.instagram.com/cryptera_2k24/",
         },
-
       ],
     },
-   
   ],
 } as const;
