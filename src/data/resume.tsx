@@ -9,9 +9,9 @@ export const DATA = {
   location: "Salem, Tamilnadu, India",
   locationLink: "",
   description:
-    "Software Engineer turned Entrepreneur. I love building things and helping people.",
+    "Software Engineer and eager learner who enjoys building solutions and helping others.",
   summary:
-    "As I embark on my entrepreneurial journey, I’m pursuing a [computer science program at Kalvium](/#education) and a BCA degree at [Mysore University](/#education), focusing on developing an innovative SaaS web builder. I’ve guided students through over [2+ talks](https://www.canva.com/design/DAFuN22b6aU/F136wyQZcfw2SNnEYTDWkQ/edit?utm_content=DAFuN22b6aU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) on choosing the right college and gained valuable experience from participating in more than [4+ hackathons](/#hackathons). I’m passionate about helping others learn and sharing insights to support their growth.",
+    "I'm started my journey of studying Computer Science - Software Product Engineering at [Kalvium](/#education) and pursuing a BCA degree at [Mysore University](/#education). I've helped students with over [2 talks](/#education) on picking the right college and gained great experience from [4+ hackathons](/#hackathons). I love helping others learn and sharing tips to support their growth.",
   avatarUrl: "/me.jpg",
   skills: [
     "Next.js",
@@ -82,47 +82,47 @@ export const DATA = {
     },
   },
 
-  work: [
-    {
-      company: "Kalvium",
-      href: "https://kalvium.com/",
-      badges: [],
-      location: "Coimbatore",
-      title: "Student at Kalvium",
-      logoUrl: "/Kalvium.png",
-      start: "Oct 2023",
-      end: "Oct 2027",
-      description:
-        "At Kalvium, I have spent the past year working with the MERN stack, building a range of small and large projects. This hands-on experience has provided me with valuable real-world skills and enabled me to connect with students across India, significantly expanding my professional network.",
-    },
-    {
-      company: "Hackathons",
-      badges: [],
-      href: "/#hackathons",
-      location: "Online and Offline",
-      title: "Author",
-      logoUrl: "/HackathonLogo.jpg",
-      start: "Jan 2024",
-      end: "Ongoing",
-      description:
-        "I have participated in over four hackathons with my friends, where I explored diverse technologies and developed real-world products. These events were instrumental in expanding my professional network, allowing me to connect with innovators from various backgrounds and significantly grow my network. The collaborative environment helped me gain new insights and forge valuable connections in the tech community.",
-    },
-    {
-      company: "Workshop",
-      href: "/#work",
-      badges: [],
-      location: "Tamilnadu",
-      title: "Educational Guidance Workshops",
-      logoUrl: "workshop.png",
-      start: "July 2023",
-      end: "Ongoing",
-      description:
-        "I have delivered over two speeches in schools, guiding students on achieving academic success and selecting the right college and department. These workshops provided detailed information on colleges and career paths, helping students make informed decisions about their educational journeys.",
-    },
-  ],
+  // work: [
+    // {
+    //   company: "Kalvium",
+    //   href: "https://kalvium.com/",
+    //   badges: [],
+    //   location: "Coimbatore",
+    //   title: "Student at Kalvium",
+    //   logoUrl: "/Kalvium.png",
+    //   start: "Oct 2023",
+    //   end: "Oct 2027",
+    //   description:
+    //     "At Kalvium, I have spent the past year working with the MERN stack, building a range of small and large projects. This hands-on experience has provided me with valuable real-world skills and enabled me to connect with students across India, significantly expanding my professional network.",
+    // },
+    // {
+    //   company: "Hackathons",
+    //   badges: [],
+    //   href: "/#hackathons",
+    //   location: "Online and Offline",
+    //   title: "Author",
+    //   logoUrl: "/HackathonLogo.jpg",
+    //   start: "Jan 2024",
+    //   end: "Ongoing",
+    //   description:
+    //     "I have participated in over four hackathons with my friends, where I explored diverse technologies and developed real-world products. These events were instrumental in expanding my professional network, allowing me to connect with innovators from various backgrounds and significantly grow my network. The collaborative environment helped me gain new insights and forge valuable connections in the tech community.",
+    // },
+    // {
+    //   company: "Workshop",
+    //   href: "/#work",
+    //   badges: [],
+    //   location: "Tamilnadu",
+    //   title: "Educational Guidance Workshops",
+    //   logoUrl: "workshop.png",
+    //   start: "July 2023",
+    //   end: "Ongoing",
+    //   description:
+    //     "I have delivered over two speeches in schools, guiding students on achieving academic success and selecting the right college and department. These workshops provided detailed information on colleges and career paths, helping students make informed decisions about their educational journeys.",
+    // },
+  // ],
   education: [
     {
-      school: "University of Mysore",
+      school: "University of Mysore - Mysore, Karnataka",
       href: "https://uni-mysore.ac.in/Kannada/home.php",
       degree: "Bachelor's Degree of Computer Application (BCA)",
       logoUrl: "/mysoreUni.jpg",
@@ -130,15 +130,15 @@ export const DATA = {
       end: "2027",
     },
     {
-      school: "Kalvium",
+      school: "Kalvium - Coimbatore, Tamil Nadu",
       href: "https://kalvium.com/",
-      degree: "Computer Science Engineering",
+      degree: "CSE - Software Product Engineering",
       logoUrl: "/kalvium.png",
       start: "2023",
       end: "2027",
     },
     {
-      school: "Government Boys Higher Secondary School",
+      school: "Government Boys Higher Secondary School - Salem, Tamil Nadu",
       href: "/#education",
       degree: "Higher Secondary Education",
       logoUrl: "/govermentlogo.png",
