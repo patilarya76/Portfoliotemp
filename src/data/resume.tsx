@@ -1,4 +1,5 @@
 import { Icons } from "@/components/icons";
+import { Certificate } from "crypto";
 import { CodeIcon, HomeIcon, NotebookIcon, PencilLine } from "lucide-react";
 import { title } from "process";
 
@@ -455,4 +456,32 @@ export const DATA = {
       ],
     },
   ],
+  certifications: [ 
+    {
+      title: "Introduction to Generative AI Learning Path",
+      dates: "Oct 10, 2024",
+      location: "Online",
+      description:
+        "This learning path combined engaging videos and hands-on labs, providing both foundational AI concepts and practical experience with Generative AI.",
+      image: "/Googlecloud.jpeg",
+      links: [
+        {
+          title: "Organization",
+          icon: <Icons.globe className="size-3" />,
+          href: "https://www.cloudskillsboost.google/",
+        },
+        {
+          title: "Certificate",
+          icon: <Icons.linkedin className="size-3" />,
+          href: "https://www.linkedin.com/feed/update/urn:li:activity:7257984059916627968/",
+        },
+        {
+          title: "Profile",
+          icon: <Icons.globe className="size-3" />,
+          href: "https://www.cloudskillsboost.google/public_profiles/a6e93c4f-9f86-4c05-9785-a79075a2d89c",
+        },
+      ],
+    },
+  
+  ]
 } as const;
