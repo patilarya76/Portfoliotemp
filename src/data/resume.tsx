@@ -133,7 +133,7 @@ export const DATA = {
       school: "Kalvium - Coimbatore, Tamil Nadu",
       href: "https://kalvium.com/",
       degree: "CSE - Software Product Engineering",
-      logoUrl: "/kalvium.png",
+      logoUrl: "/Kalvium.png",
       start: "2023",
       end: "2027",
     },
@@ -329,6 +329,27 @@ export const DATA = {
     },
   ],
   hackathons: [
+    {
+      title: "CampusLeet",
+      dates: "Oct 23, 2024",
+      location: "Coimbatore, TamilNadu",
+      description:
+        "I participated in my campus CampusLeet Challenge, where I solved 3 out of 4 questions. This experience helped me understand techniques for solving coding problems more effectively, and I won the competition on my campus.",
+      image: "/Kalvium.png",
+      links: [
+        
+        {
+          title: "Image",
+          icon: <Icons.globe className="size-3" />,
+          href: "https://drive.google.com/file/d/1Mrw7gPg2i1VkjpHCuENLB7DqkpZbpeJI/view?usp=sharing",
+        },
+        {
+          title: "Organization",
+          icon: <Icons.linkedin className="size-3" />,
+          href: "https://kalvium.com/",
+        },
+      ],
+    },
     {
       title: "Prisma",
       dates: "July 20, 2024",
