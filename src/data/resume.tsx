@@ -12,7 +12,7 @@ export const DATA = {
   description:
     "Software Engineer and eager learner who enjoys building solutions and helping others.",
   summary:
-    "I'm started my journey of studying Computer Science - Software Product Engineering at [Kalvium](/#education) and pursuing a BCA degree at [Mysore University](/#education). I've helped students with over [2 talks](/#education) on picking the right college and gained great experience from [4+ hackathons](/#hackathons). I love helping others learn and sharing tips to support their growth.",
+    "I'm started my journey of studying Computer Science - Pursuing Software Product Engineering at [Kalvium](/#education) and  a BCA degree at [Mysore University](/#education). I've helped students with over [2 talks](/#education) on picking the right college and gained great experience from [4+ hackathons](/#hackathons). I love helping others learn and sharing tips to support their growth.",
   avatarUrl: "/me.jpg",
   skills: [
     "Next.js",
