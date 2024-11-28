@@ -12,7 +12,7 @@ export const DATA = {
   description:
     "Software Engineer and eager learner who enjoys building solutions and helping others.",
   summary:
-    "I'm started my journey of studying Computer Science - Pursuing Software Product Engineering at [Kalvium](/#education) and  a BCA degree at [Mysore University](/#education). I've helped students with over [2 talks](/#education) on picking the right college and gained great experience from [4+ hackathons](/#hackathons). I love helping others learn and sharing tips to support their growth.",
+    "I'm started my journey of studying Computer Science - Pursuing Software Product Engineering at [Kalvium](/#education) and  a BCA degree at [Mysore University](/#education). I've helped students with over [2 talks](/#education) on picking the right college and gained great experience from [6+ hackathons](/#hackathons). I love helping others learn and sharing tips to support their growth.",
   avatarUrl: "/me.jpg",
   skills: [
     "Next.js",
@@ -149,9 +149,27 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Flern",
+      href: "https://rosenau.mugilans.in/",
+      dates: "Nov 2024 - Ongoing",
+      active: true,
+      description:
+        "We built FLERN, a fun and interactive learning platform that simplifies complex concepts with engaging quizzes and personalized feedback. Using MERN, LangChain, and Gemini API, we made learning accessible and enjoyable for everyone.",
+      technologies: ["MERN", "Javascript", "TailwindCSS", "Langchain", "Gemini API", ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/mugilankani/Flern",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/Flern.jpeg",
+      video: "",
+    },
+    {
       title: "Rosenau",
       href: "https://rosenau.mugilans.in/",
-      dates: "Aug 2024 - Ongoing",
+      dates: "Aug 2024 ",
       active: true,
       description:
         "Rosenau was created to simplify frontend development and web design by bringing together all the essential tools in one place. I developed this platform to help you avoid the frustration of searching for reliable resources, so you can focus on building great projects.",
@@ -330,6 +348,27 @@ export const DATA = {
     },
   ],
   hackathons: [
+    {
+      title: "Google Developer Group - KSRIET",
+      dates: "Nov 07, 2024",
+      location: "Erodu, TamilNadu",
+      description:
+        "We built FLERN at a 24-hour GDG hackathon—an innovative platform where learning meets fun! Using MERN, LangChain, and the Gemini API, we created adaptive quizzes, automated courses, and personalized feedback to help users master any concept effortlessly.",
+      image: "/GDG.png",
+      links: [
+        
+        {
+          title: "Source",
+          icon: <Icons.github className="size-3" />,
+          href: "https://github.com/mugilankani/Flern",
+        },
+        {
+          title: "Organization",
+          icon: <Icons.linkedin className="size-3" />,
+          href: "https://www.linkedin.com/company/gdg-ksriet24/",
+        },
+      ],
+    },
     {
       title: "CampusLeet",
       dates: "Oct 23, 2024",
