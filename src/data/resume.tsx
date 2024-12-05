@@ -12,7 +12,7 @@ export const DATA = {
   description:
     "Software Engineer and eager learner who enjoys building solutions and helping others.",
   summary:
-    "I'm started my journey of studying Computer Science - Pursuing Software Product Engineering at [Kalvium](/#education) and  a BCA degree at [Mysore University](/#education). I've helped students with over [2 talks](/#education) on picking the right college and gained great experience from [6+ hackathons](/#hackathons). I love helping others learn and sharing tips to support their growth.",
+    "I'm started my journey of studying Computer Science - Pursuing Software Product Engineering at [Kalvium](/#education) and  a BCA degree at [Mysore University](/#education). I've helped students with over [2 talks](/#education) on picking the right college and gained great experience from [7+ hackathons](/#hackathons). I love helping others learn and sharing tips to support their growth.",
   avatarUrl: "/me.jpg",
   skills: [
     "Next.js",
@@ -84,42 +84,42 @@ export const DATA = {
   },
 
   // work: [
-    // {
-    //   company: "Kalvium",
-    //   href: "https://kalvium.com/",
-    //   badges: [],
-    //   location: "Coimbatore",
-    //   title: "Student at Kalvium",
-    //   logoUrl: "/Kalvium.png",
-    //   start: "Oct 2023",
-    //   end: "Oct 2027",
-    //   description:
-    //     "At Kalvium, I have spent the past year working with the MERN stack, building a range of small and large projects. This hands-on experience has provided me with valuable real-world skills and enabled me to connect with students across India, significantly expanding my professional network.",
-    // },
-    // {
-    //   company: "Hackathons",
-    //   badges: [],
-    //   href: "/#hackathons",
-    //   location: "Online and Offline",
-    //   title: "Author",
-    //   logoUrl: "/HackathonLogo.jpg",
-    //   start: "Jan 2024",
-    //   end: "Ongoing",
-    //   description:
-    //     "I have participated in over four hackathons with my friends, where I explored diverse technologies and developed real-world products. These events were instrumental in expanding my professional network, allowing me to connect with innovators from various backgrounds and significantly grow my network. The collaborative environment helped me gain new insights and forge valuable connections in the tech community.",
-    // },
-    // {
-    //   company: "Workshop",
-    //   href: "/#work",
-    //   badges: [],
-    //   location: "Tamilnadu",
-    //   title: "Educational Guidance Workshops",
-    //   logoUrl: "workshop.png",
-    //   start: "July 2023",
-    //   end: "Ongoing",
-    //   description:
-    //     "I have delivered over two speeches in schools, guiding students on achieving academic success and selecting the right college and department. These workshops provided detailed information on colleges and career paths, helping students make informed decisions about their educational journeys.",
-    // },
+  // {
+  //   company: "Kalvium",
+  //   href: "https://kalvium.com/",
+  //   badges: [],
+  //   location: "Coimbatore",
+  //   title: "Student at Kalvium",
+  //   logoUrl: "/Kalvium.png",
+  //   start: "Oct 2023",
+  //   end: "Oct 2027",
+  //   description:
+  //     "At Kalvium, I have spent the past year working with the MERN stack, building a range of small and large projects. This hands-on experience has provided me with valuable real-world skills and enabled me to connect with students across India, significantly expanding my professional network.",
+  // },
+  // {
+  //   company: "Hackathons",
+  //   badges: [],
+  //   href: "/#hackathons",
+  //   location: "Online and Offline",
+  //   title: "Author",
+  //   logoUrl: "/HackathonLogo.jpg",
+  //   start: "Jan 2024",
+  //   end: "Ongoing",
+  //   description:
+  //     "I have participated in over four hackathons with my friends, where I explored diverse technologies and developed real-world products. These events were instrumental in expanding my professional network, allowing me to connect with innovators from various backgrounds and significantly grow my network. The collaborative environment helped me gain new insights and forge valuable connections in the tech community.",
+  // },
+  // {
+  //   company: "Workshop",
+  //   href: "/#work",
+  //   badges: [],
+  //   location: "Tamilnadu",
+  //   title: "Educational Guidance Workshops",
+  //   logoUrl: "workshop.png",
+  //   start: "July 2023",
+  //   end: "Ongoing",
+  //   description:
+  //     "I have delivered over two speeches in schools, guiding students on achieving academic success and selecting the right college and department. These workshops provided detailed information on colleges and career paths, helping students make informed decisions about their educational journeys.",
+  // },
   // ],
   education: [
     {
@@ -149,13 +149,37 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "DataMotion AI",
+      href: "https://github.com/mugilankani/DataMotion-AI",
+      dates: "Nov 2024 - Nov 2025",
+      active: true,
+      description:
+        "We built an AI-powered dynamic infographic generator that transforms data into engaging visual stories. Using Next.js and Gemini API, we created an animated interface for seamless data storytelling.",
+      technologies: ["Next.Js", "Javascript", "TailwindCSS", "Gemini API"],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/mugilankani/DataMotion-AI",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/DataMotion.jpeg",
+      video: "",
+    },
+    {
       title: "Flern",
-      href: "https://rosenau.mugilans.in/",
+      href: "https://github.com/mugilankani/Flern",
       dates: "Nov 2024 - Ongoing",
       active: true,
       description:
         "We built FLERN, a fun and interactive learning platform that simplifies complex concepts with engaging quizzes and personalized feedback. Using MERN, LangChain, and Gemini API, we made learning accessible and enjoyable for everyone.",
-      technologies: ["MERN", "Javascript", "TailwindCSS", "Langchain", "Gemini API", ],
+      technologies: [
+        "MERN",
+        "Javascript",
+        "TailwindCSS",
+        "Langchain",
+        "Gemini API",
+      ],
       links: [
         {
           type: "Source",
@@ -349,6 +373,26 @@ export const DATA = {
   ],
   hackathons: [
     {
+      title: "Generative AI Buildathon",
+      dates: "Nov 22, 2024",
+      location: "Online Hackathon",
+      description:
+        "We participated in the 100x Engineers 3Days - Hackathon, where we built a product based on the provided problem statement. Using Next.js and the Gemini API, we developed an AI-powered dynamic infographic generator that creates animated graphical interfaces to transform data into compelling visual stories.",
+      image: "/100xEngineersLogo.jpeg",
+      links: [
+        {
+          title: "Source",
+          icon: <Icons.github className="size-3" />,
+          href: "https://github.com/mugilankani/DataMotion-AI",
+        },
+        {
+          title: "Organization",
+          icon: <Icons.linkedin className="size-3" />,
+          href: "https://www.100xengineers.com/",
+        },
+      ],
+    },
+    {
       title: "Google Developer Group - KSRIET",
       dates: "Nov 07, 2024",
       location: "Erodu, TamilNadu",
@@ -356,7 +400,6 @@ export const DATA = {
         "We built FLERN at a 24-hour GDG hackathon—an innovative platform where learning meets fun! Using MERN, LangChain, and the Gemini API, we created adaptive quizzes, automated courses, and personalized feedback to help users master any concept effortlessly.",
       image: "/GDG.png",
       links: [
-        
         {
           title: "Source",
           icon: <Icons.github className="size-3" />,
@@ -377,7 +420,6 @@ export const DATA = {
         "I participated in my campus CampusLeet Challenge, where I solved 3 out of 4 questions. This experience helped me understand techniques for solving coding problems more effectively, and I won the competition on my campus.",
       image: "/Kalvium.png",
       links: [
-        
         {
           title: "Image",
           icon: <Icons.globe className="size-3" />,
@@ -495,7 +537,7 @@ export const DATA = {
       ],
     },
   ],
-  certifications: [ 
+  certifications: [
     {
       title: "Introduction to Generative AI Learning Path",
       dates: "Oct 10, 2024",
@@ -521,6 +563,5 @@ export const DATA = {
         },
       ],
     },
-  
-  ]
+  ],
 } as const;
