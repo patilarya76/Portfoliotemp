@@ -151,7 +151,7 @@ export const DATA = {
     {
       title: "DataMotion AI",
       href: "https://github.com/mugilankani/DataMotion-AI",
-      dates: "Nov 2024 - Nov 2025",
+      dates: "Nov 2024",
       active: true,
       description:
         "We built an AI-powered dynamic infographic generator that transforms data into engaging visual stories. Using Next.js and Gemini API, we created an animated interface for seamless data storytelling.",
