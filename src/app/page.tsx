@@ -152,29 +152,29 @@ export default function Page() {
           </div>
         </div>
       </section>
-      <section id="hackathons">
+      {/* <section id="hackathons">
         <div className="space-y-12 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 13}>
-            <div className="flex flex-col items-center justify-center space-y-4 text-center">
-              <div className="space-y-2">
+            <div className="flex flex-col items-center justify-center space-y-4 text-center"> */}
+              {/* <div className="space-y-2">
                 <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
                   Hackathons
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
                   I like building things
-                </h2>
-                <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                </h2> */}
+                {/* <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   While studying in college, I attended {DATA.hackathons.length}
                   + hackathons both online and offline. I love the opportunity
                   to build innovative products with new technologies and expand
                   my network.
-                </p>
-              </div>
+                </p> */}
+              {/* </div>
             </div>
           </BlurFade>
-          <BlurFade delay={BLUR_FADE_DELAY * 14}>
-            <ul className="mb-4 ml-4 divide-y divide-dashed border-l">
-              {DATA.hackathons.map((project, id) => (
+          <BlurFade delay={BLUR_FADE_DELAY * 14}> */}
+            {/* <ul className="mb-4 ml-4 divide-y divide-dashed border-l"> */}
+              {/* {DATA.hackathons.map((project, id) => (
                 <BlurFade
                   key={project.title + project.dates}
                   delay={BLUR_FADE_DELAY * 15 + id * 0.05}
@@ -188,35 +188,35 @@ export default function Page() {
                     links={project.links}
                   />
                 </BlurFade>
-              ))}
-            </ul>
+              ))} */}
+            {/* </ul>
           </BlurFade>
         </div>
-      </section>
-      <section id="certifications">
+      </section> */}
+      {/* <section id="certifications">
         <div className="space-y-12 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 13}>
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
-              <div className="space-y-2">
-                <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
+              <div className="space-y-2"> */}
+                {/* <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
                   Certifications
-                </div>
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+                </div> */}
+                {/* <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
                   Always Learning and Growing
-                </h2>
-                <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                </h2> */}
+                {/* <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   As a current college student, I’ve earned{" "}
                   {DATA.certifications.length}+ certifications across various
                   fields. These certifications have enhanced my skills and
                   broadened my knowledge, helping me apply new concepts to
                   real-world projects.
-                </p>
-              </div>
+                </p> */}
+              {/* </div>
             </div>
           </BlurFade>
           <BlurFade delay={BLUR_FADE_DELAY * 14}>
-            <ul className="mb-4 ml-4 divide-y divide-dashed border-l">
-              {DATA.certifications.map((project, id) => (
+            <ul className="mb-4 ml-4 divide-y divide-dashed border-l"> */}
+              {/* {DATA.certifications.map((project, id) => (
                 <BlurFade
                   key={project.title + project.dates}
                   delay={BLUR_FADE_DELAY * 15 + id * 0.05}
@@ -230,18 +230,18 @@ export default function Page() {
                     links={project.links}
                   />
                 </BlurFade>
-              ))}
-            </ul>
+              ))} */}
+            {/* </ul>
           </BlurFade>
         </div>
-      </section>
+      </section> */}
       <section id="contact">
         <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 16}>
             <div className="space-y-3">
-              <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
+              {/* <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
                 Contact
-              </div>
+              </div> */}
               <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
                 Get in Touch
               </h2>
